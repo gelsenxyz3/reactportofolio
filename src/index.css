@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #0B0712;
+  --color-card-bg: #140D21;
+  --color-purple-primary: #8B5CF6;
+  --color-purple-accent: #A855F7;
+  --color-purple-glow: #C084FC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0B0712;
+  color: #F3F4F6;
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
